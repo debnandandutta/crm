@@ -1,0 +1,1 @@
+@inject('languages', 'App\Http\Controllers\SwitchLanguageController')<section id="nav-bar">    <nav class=" navbar-expand-lg navbar-light text-center">        <a class="navbar-brand" href="{{ url($appUrl) }}"><img src="{{ asset($publicPath.'/images/logo.png') }}"></a>    </nav></section>
