@@ -1,4 +1,4 @@
-FROM php:5.6-cli
+FROM php:8.4.11RC1-cli
 
 RUN apt-get update && \
     apt-get install -y git zip unzip && \
